@@ -89,7 +89,7 @@ btnAñadir.addEventListener("click", () => {
             nombre: tarea,
             id: id,
             completado: false,
-            borrado: false
+            eliminado: false
         })
         toastAñadido.showToast();
 
@@ -109,7 +109,7 @@ document.addEventListener("keyup", (event) => {
                 nombre: tarea,
                 id: id,
                 completado: false,
-                borrado: false
+                elimado: false
             })
             toastAñadido.showToast();
         }
