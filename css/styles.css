@@ -8,8 +8,11 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
+    
 /*     background-image: url(/img/fondo2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,6 +35,9 @@ h2{
 
 
 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%; /* despues agregar mediaqueries y en desktop achicar el ancho */
     height: 100vh;
     padding: 20px 5px;
@@ -132,6 +138,7 @@ ul{
     align-items: center;
     text-align: center;
     width: 100%;
-    position: absolute;
+    height: fit-content;
+    position: relative;
     padding: 10px;
 }
